@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>D504F75F-D478-45C1-A10A-0C961A8AA68D</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>DatBoi Corp</string>
+    <key>PayloadIdentifier</key>
+    <string>D504F75F-D478-45C1-A10A-0C961A8AA68D</string>
+    <key>PayloadDisplayName</key>
+    <string>test com.apple.WindowManager profile</string>
+    <key>PayloadDescription</key>
+    <string/>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Custom Settings</string>
+        <key>PayloadIdentifier</key>
+        <string>ACC5C3DA-CAE2-4388-A313-7C73F3104650</string>
+        <key>PayloadOrganization</key>
+        <string>JAMF Software</string>
+        <key>PayloadType</key>
+        <string>com.apple.ManagedClient.preferences</string>
+        <key>PayloadUUID</key>
+        <string>ACC5C3DA-CAE2-4388-A313-7C73F3104650</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadContent</key>
+        <dict>
+          <key>com.apple.WindowManager</key>
+          <dict>
+            <key>Forced</key>
+            <array>
+              <dict>
+                <key>mcx_preference_settings</key>
+                <dict>
+                  <key>EnableTiledWindowMargins</key>
+                  <false/>
+                  <key>EnableTilingByEdgeDrag</key>
+                  <false/>
+                  <key>EnableTilingOptionAccelerator</key>
+                  <false/>
+                  <key>EnableTopTilingByEdgeDrag</key>
+                  <false/>
+                </dict>
+              </dict>
+            </array>
+          </dict>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

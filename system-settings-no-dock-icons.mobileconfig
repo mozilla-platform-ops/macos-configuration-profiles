@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Dock</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dock.B097C0EA-A96A-47F6-941B-C28BE6A78C80</string>
+			<key>PayloadType</key>
+			<string>com.apple.dock</string>
+			<key>PayloadUUID</key>
+			<string>B097C0EA-A96A-47F6-941B-C28BE6A78C80</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>contents-immutable</key>
+			<true/>
+			<key>launchanim</key>
+			<false/>
+			<key>orientation</key>
+			<string>bottom</string>
+			<key>show-recents</key>
+			<false/>
+			<key>static-only</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Untitled</string>
+	<key>PayloadIdentifier</key>
+	<string>Ryans-MacBook-Pro.2EB23B70-9AED-43CB-ADD7-87F1576D41D4</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>2EB23B70-9AED-43CB-ADD7-87F1576D41D4</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

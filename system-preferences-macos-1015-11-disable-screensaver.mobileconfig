@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Screensaver settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Screensaver</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.erikberglund.ProfileCreator.AA2A80CB-650E-4FBF-B0AB-7D48AC93E345.com.apple.screensaver.11351C1E-ECB8-49BB-8A47-F9A81204F42A</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.screensaver</string>
+			<key>PayloadUUID</key>
+			<string>11351C1E-ECB8-49BB-8A47-F9A81204F42A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>askForPassword</key>
+			<false/>
+			<key>idleTime</key>
+			<integer>0</integer>
+			<key>loginWindowIdleTime</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Disables both screen saver timeout and password requirement</string>
+	<key>PayloadDisplayName</key>
+	<string>bigsur_disable_screen_saver</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.erikberglund.ProfileCreator.AA2A80CB-650E-4FBF-B0AB-7D48AC93E345</string>
+	<key>PayloadOrganization</key>
+	<string>Mozilla</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>AA2A80CB-650E-4FBF-B0AB-7D48AC93E345</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

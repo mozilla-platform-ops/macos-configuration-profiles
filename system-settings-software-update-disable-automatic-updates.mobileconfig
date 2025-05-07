@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Configures Software Update settings</string>
+            <key>PayloadDisplayName</key>
+            <string>Software Update Restrictions</string>
+            <key>PayloadIdentifier</key>
+            <string>com.mozilla.softwareupdate</string>
+            <key>PayloadOrganization</key>
+            <string>Mozilla</string>
+            <key>PayloadType</key>
+            <string>com.apple.SoftwareUpdate</string>
+            <key>PayloadUUID</key>
+            <string>AD8A4204-BF84-455B-994F-ABD57E5DD7AE</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>AllowPreReleaseInstallation</key>
+            <false/>
+            <key>AutomaticCheckEnabled</key>
+            <false/>
+            <key>AutomaticDownload</key>
+            <false/>
+            <key>AutomaticallyInstallAppUpdates</key>
+            <false/>
+            <key>AutomaticallyInstallMacOSUpdates</key>
+            <false/>
+            <key>ConfigDataInstall</key>
+            <true/>
+            <key>CriticalUpdateInstall</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Disable Software Update's automated check for new Apple software updates</string>
+            <key>PayloadDisplayName</key>
+            <string>Disable Automated Update Check</string>
+            <key>PayloadIdentifier</key>
+            <string>com.mozilla.disableupdatecheck</string>
+            <key>PayloadOrganization</key>
+            <string>Mozilla</string>
+            <key>PayloadType</key>
+            <string>com.apple.ManagedClient.preferences</string>
+            <key>PayloadUUID</key>
+            <string>E4BE126A-F7CF-4738-A44D-7962DAC39EAE</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadContent</key>
+            <dict>
+                <key>com.apple.SoftwareUpdate</key>
+                <dict>
+                    <key>Forced</key>
+                    <array>
+                        <dict>
+                            <key>mcx_preference_settings</key>
+                            <dict>
+                                <key>AutomaticCheckEnabled</key>
+                                <false/>
+                            </dict>
+                        </dict>
+                    </array>
+                </dict>
+            </dict>
+        </dict>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Disables Software Update's automatic pre-installation download of OS and other Apple updates</string>
+            <key>PayloadDisplayName</key>
+            <string>Disable Automatic Update Downloads</string>
+            <key>PayloadIdentifier</key>
+            <string>com.mozilla.disableautodownload</string>
+            <key>PayloadOrganization</key>
+            <string>Mozilla</string>
+            <key>PayloadType</key>
+            <string>com.apple.ManagedClient.preferences</string>
+            <key>PayloadUUID</key>
+            <string>59291234-d492-4e17-b8e3-796407ac7b09</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadContent</key>
+            <dict>
+                <key>com.apple.SoftwareUpdate</key>
+                <dict>
+                    <key>Forced</key>
+                    <array>
+                        <dict>
+                            <key>mcx_preference_settings</key>
+                            <dict>
+                                <key>AutomaticDownload</key>
+                                <false/>
+                            </dict>
+                        </dict>
+                    </array>
+                </dict>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Disables automatic macOS software updates</string>
+    <key>PayloadDisplayName</key>
+    <string>macOS Software Update Block</string>
+    <key>PayloadIdentifier</key>
+    <string>com.mozilla.softwareupdate.block</string>
+    <key>PayloadOrganization</key>
+    <string>Mozilla</string>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>06F5140B-4644-41FE-9390-CB307F76F12E</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>

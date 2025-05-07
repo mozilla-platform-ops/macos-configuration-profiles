@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Setup Assistant #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.SetupAssistant.managed.EB9E9EC5-C167-4245-B708-2003C958744B</string>
+			<key>PayloadType</key>
+			<string>com.apple.SetupAssistant.managed</string>
+			<key>PayloadUUID</key>
+			<string>EB9E9EC5-C167-4245-B708-2003C958744B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SkipAccessibility</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Skip Accessiblility</string>
+	<key>PayloadIdentifier</key>
+	<string>Ryans-MacBook-Pro-2.008DCF59-1E06-4D11-9D84-9A74EBE4B27E</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>008DCF59-1E06-4D11-9D84-9A74EBE4B27E</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>
