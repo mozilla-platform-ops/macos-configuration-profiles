@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures Setup Assistant settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Setup Assistant</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.erikberglund.ProfileCreator.06F5140B-4644-41FE-9390-CB307F76F12E.com.apple.SetupAssistant.managed.A36828ED-FD55-43B3-99CE-37B09F9A341E</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.SetupAssistant.managed</string>
+			<key>PayloadUUID</key>
+			<string>A36828ED-FD55-43B3-99CE-37B09F9A341E</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SkipAppearance</key>
+			<true/>
+			<key>SkipCloudSetup</key>
+			<true/>
+			<key>SkipPrivacySetup</key>
+			<true/>
+			<key>SkipScreenTime</key>
+			<true/>
+			<key>SkipSiriSetup</key>
+			<true/>
+			<key>SkipTouchIDSetup</key>
+			<true/>
+			<key>SkipTrueTone</key>
+			<true/>
+			<key>SkipiCloudStorageSetup</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Skip All Dialog Boxes at New User Login</string>
+	<key>PayloadDisplayName</key>
+	<string>bigsur_skip_setup_assistant</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.erikberglund.ProfileCreator.06F5140B-4644-41FE-9390-CB307F76F12E</string>
+	<key>PayloadOrganization</key>
+	<string>Mozilla</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>06F5140B-4644-41FE-9390-CB307F76F12E</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

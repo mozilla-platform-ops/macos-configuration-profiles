@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.TCC.configuration-profile-policy</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>Services</key>
+      <dict>
+        <key>SystemPolicyAllFiles</key>
+        <array>
+          <dict>
+            <key>Identifier</key>
+            <string>/usr/sbin/sshd</string>
+            <key>IdentifierType</key>
+            <string>Path</string>
+            <key>CodeRequirement</key>
+            <string>identifier "com.openssh.sshd" and anchor apple</string>
+            <key>Authorization</key>
+            <string>Allow</string>
+          </dict>
+        </array>
+      </dict>
+      <key>PayloadIdentifier</key>
+      <string>com.example.allow-sshd-fda</string>
+      <key>PayloadUUID</key>
+      <string>UUID-GOES-HERE</string>
+      <key>PayloadDisplayName</key>
+      <string>Allow Full Disk Access for sshd</string>
+      <key>PayloadOrganization</key>
+      <string>YourOrg</string>
+      <key>PayloadDescription</key>
+      <string>Grants FDA to sshd for remote users</string>
+    </dict>
+  </array>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadIdentifier</key>
+  <string>com.example.full-disk-access</string>
+  <key>PayloadUUID</key>
+  <string>UUID-GOES-HERE</string>
+  <key>PayloadDisplayName</key>
+  <string>Full Disk Access for Remote Users</string>
+  <key>PayloadOrganization</key>
+  <string>YourOrg</string>
+  <key>PayloadDescription</key>
+  <string>Allows sshd to have Full Disk Access</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+</dict>
+</plist>

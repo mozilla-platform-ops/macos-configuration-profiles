@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Grants Terminal access to administer system settings for Mozilla systems.</string>
+            <key>PayloadDisplayName</key>
+            <string>PPPC - Terminal Admin Access (Mozilla)</string>
+            <key>PayloadIdentifier</key>
+            <string>com.mozilla.pppc.terminal.admin</string>
+            <key>PayloadType</key>
+            <string>com.apple.TCC.configuration-profile-policy</string>
+            <key>PayloadUUID</key>
+            <string>F21A61F1-0A3D-4B1B-BDA6-2A2EF2639E99</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>Services</key>
+            <dict>
+                <key>SystemPolicySysAdminFiles</key>
+                <array>
+                    <dict>
+                        <key>Authorization</key>
+                        <string>Allow</string>
+                        <key>Identifier</key>
+                        <string>com.apple.Terminal</string>
+                        <key>IdentifierType</key>
+                        <string>bundleID</string>
+                        <key>CodeRequirement</key>
+                        <string>identifier "com.apple.Terminal" and anchor apple</string>
+                    </dict>
+                </array>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Mozilla Terminal Admin Access</string>
+    <key>PayloadIdentifier</key>
+    <string>com.mozilla.pppc.terminal</string>
+    <key>PayloadOrganization</key>
+    <string>Mozilla</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>AF98B91A-C3D2-4A31-8D33-A3E121BCE2F0</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>

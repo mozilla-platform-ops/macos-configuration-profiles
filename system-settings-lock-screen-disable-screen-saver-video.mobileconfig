@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadType</key>
+        <string>com.apple.screensaver</string>
+        <key>showScreenSaverOnLockScreen</key>
+        <false/>
+        <key>PayloadUUID</key>
+        <string>12345678-ABCD-1234-ABCD-1234567890AB</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+      </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Disable Lock Screen Video</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.disable-lock-screen-video</string>
+    <key>PayloadUUID</key>
+    <string>87654321-DCBA-4321-DCBA-0987654321AB</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+  </dict>
+</plist>

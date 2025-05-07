@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Configures macOS power management settings</string>
+            <key>PayloadDisplayName</key>
+            <string>Power Management</string>
+            <key>PayloadIdentifier</key>
+            <string>com.mozilla.powermanagement</string>
+            <key>PayloadOrganization</key>
+            <string>Mozilla</string>
+            <key>PayloadType</key>
+            <string>com.apple.ManagedClient.preferences</string>
+            <key>PayloadUUID</key>
+            <string>C050E1D5-EF5B-41D9-AF0D-9BEF87675E30</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadContent</key>
+            <dict>
+                <key>com.apple.EnergySaver</key>
+                <dict>
+                    <key>Forced</key>
+                    <array>
+                        <dict>
+                            <key>mcx_preference_settings</key>
+                            <dict>
+                                <key>SleepDisabled</key>
+                                <true/>
+                                <key>com.apple.EnergySaver.desktop.ACPower</key>
+                                <dict>
+                                    <key>Automatic Restart On Power Loss</key>
+                                    <integer>1</integer>
+                                    <key>Disk Sleep Timer</key>
+                                    <integer>0</integer>
+                                    <key>Display Sleep Timer</key>
+                                    <integer>0</integer>
+                                    <key>System Sleep Timer</key>
+                                    <integer>0</integer>
+                                    <key>Wake On Network Access</key>
+                                    <integer>1</integer>
+                                </dict>
+                                <key>com.apple.EnergySaver.desktop.BatteryPower</key>
+                                <dict>
+                                    <key>Automatic Restart On Power Loss</key>
+                                    <integer>1</integer>
+                                    <key>Disk Sleep Timer</key>
+                                    <integer>0</integer>
+                                    <key>Display Sleep Timer</key>
+                                    <integer>0</integer>
+                                    <key>System Sleep Timer</key>
+                                    <integer>0</integer>
+                                    <key>Wake On Network Access</key>
+                                    <integer>1</integer>
+                                </dict>
+                            </dict>
+                        </dict>
+                    </array>
+                </dict>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Prevents system, display, and disk from sleeping. Enables Wake on LAN and Auto Restart after power failure.</string>
+    <key>PayloadDisplayName</key>
+    <string>macOS Power Management</string>
+    <key>PayloadIdentifier</key>
+    <string>com.mozilla.powermanagement.config</string>
+    <key>PayloadOrganization</key>
+    <string>Mozilla</string>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>06F5140B-4644-41FE-9390-CB307F76F12E</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>

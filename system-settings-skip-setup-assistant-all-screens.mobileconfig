@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Configures Setup Assistant settings</string>
+            <key>PayloadDisplayName</key>
+            <string>Setup Assistant</string>
+            <key>PayloadIdentifier</key>
+            <string>com.mozilla.setupassistant</string>
+            <key>PayloadOrganization</key>
+            <string>Mozilla</string>
+            <key>PayloadType</key>
+            <string>com.apple.SetupAssistant.managed</string>
+            <key>PayloadUUID</key>
+            <string>A36828ED-FD55-43B3-99CE-37B09F9A341E</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>SkipAppearance</key>
+            <true/>
+            <key>SkipCloudSetup</key>
+            <true/>
+            <key>SkipPrivacySetup</key>
+            <true/>
+            <key>SkipScreenTime</key>
+            <true/>
+            <key>SkipSiriSetup</key>
+            <true/>
+            <key>SkipTouchIDSetup</key>
+            <true/>
+            <key>SkipTrueTone</key>
+            <true/>
+            <key>SkipiCloudStorageSetup</key>
+            <true/>
+            <key>SkipAccessibility</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>PayloadDisplayName</key>
+            <string>Skip Additional Setup Screens</string>
+            <key>PayloadIdentifier</key>
+            <string>com.mozilla.skipsetup</string>
+            <key>PayloadOrganization</key>
+            <string>Mozilla</string>
+            <key>PayloadType</key>
+            <string>com.apple.ManagedClient.preferences</string>
+            <key>PayloadUUID</key>
+            <string>9295A3B8-BB01-4E7A-BA5F-0F3C1C99B70A</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadContent</key>
+            <dict>
+                <key>com.apple.SetupAssistant.managed</key>
+                <dict>
+                    <key>Forced</key>
+                    <array>
+                        <dict>
+                            <key>mcx_preference_settings</key>
+                            <dict>
+                                <key>SkipSetupItems</key>
+                                <array>
+                                    <string>Intelligence</string>
+                                    <string>Welcome</string>
+                                    <string>DarkLightAppearance</string>
+                                    <string>DataPrivacyConsent</string>
+                                </array>
+                            </dict>
+                        </dict>
+                    </array>
+                </dict>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Suppresses setup assistant screens on macOS</string>
+    <key>PayloadDisplayName</key>
+    <string>macOS Setup Assistant Suppression</string>
+    <key>PayloadIdentifier</key>
+    <string>com.mozilla.setup.suppression</string>
+    <key>PayloadOrganization</key>
+    <string>Mozilla</string>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>06F5140B-4644-41FE-9390-CB307F76F12E</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>

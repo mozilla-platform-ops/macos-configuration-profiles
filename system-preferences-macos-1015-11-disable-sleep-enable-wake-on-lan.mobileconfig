@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures Energy Saver settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Energy Saver</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.erikberglund.ProfileCreator.C050E1D5-EF5B-41D9-AF0D-9BEF87675E30.com.apple.MCX.367C2C04-B521-44EB-855B-B5623D2E1269</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.MCX</string>
+			<key>PayloadUUID</key>
+			<string>367C2C04-B521-44EB-855B-B5623D2E1269</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SleepDisabled</key>
+			<true/>
+			<key>com.apple.EnergySaver.desktop.ACPower</key>
+			<dict>
+				<key>Automatic Restart On Power Loss</key>
+				<integer>1</integer>
+				<key>Disk Sleep Timer</key>
+				<integer>0</integer>
+				<key>Display Sleep Timer</key>
+				<integer>0</integer>
+				<key>System Sleep Timer</key>
+				<integer>0</integer>
+				<key>Wake On LAN</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Prevent sleep of system, display and hdd. Wake on LAN. On after power failure.</string>
+	<key>PayloadDisplayName</key>
+	<string>bigsur_power_management</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.erikberglund.ProfileCreator.C050E1D5-EF5B-41D9-AF0D-9BEF87675E30</string>
+	<key>PayloadOrganization</key>
+	<string>Mozilla</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>C050E1D5-EF5B-41D9-AF0D-9BEF87675E30</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

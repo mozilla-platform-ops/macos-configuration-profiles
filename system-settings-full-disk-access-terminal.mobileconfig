@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadDescription</key>
+        <string>Grants Full Disk Access to Terminal.app</string>
+        <key>PayloadDisplayName</key>
+        <string>Terminal Full Disk Access</string>
+        <key>PayloadIdentifier</key>
+        <string>com.example.terminal.fda</string>
+        <key>PayloadOrganization</key>
+        <string>Your Org</string>
+        <key>PayloadType</key>
+        <string>com.apple.TCC.configuration-profile-policy</string>
+        <key>PayloadUUID</key>
+        <string>5A1CFC5A-9D3C-4A52-B1F0-2DE5B6E82DA0</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>Services</key>
+        <dict>
+          <key>SystemPolicyAllFiles</key>
+          <array>
+            <dict>
+              <key>Identifier</key>
+              <string>/System/Applications/Utilities/Terminal.app</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.Terminal" and anchor apple</string>
+              <key>Authorization</key>
+              <string>Allow</string>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Terminal Full Disk Access</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.terminal.fda.profile</string>
+    <key>PayloadOrganization</key>
+    <string>Your Org</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>6B0A5E43-35E2-4F5B-9F9B-4E2DE20B8B8F</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+  </dict>
+</plist>

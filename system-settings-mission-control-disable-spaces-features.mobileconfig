@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>com.example.cltbld.spaces-settings</string>
+    <key>PayloadUUID</key>
+    <string>87654321-DCBA-4321-DCBA-0987654321BA</string>
+    <key>PayloadDisplayName</key>
+    <string>System Settings - Disable Spaces Features</string>
+    <key>PayloadDescription</key>
+    <string>Enforces Spaces and Mission Control settings for user cltbld.</string>
+    <key>PayloadOrganization</key>
+    <string>MyOrganization</string>
+    <key>PayloadScope</key>
+    <string>User</string>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.ManagedClient.preferences</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.example.cltbld.spaces-settings.managedprefs</string>
+            <key>PayloadUUID</key>
+            <string>12345678-ABCD-1234-ABCD-1234567890AB</string>
+            <key>PayloadDisplayName</key>
+            <string>System Settings - Disable Spaces Features</string>
+            <key>PayloadScope</key>
+            <string>User</string>
+            <key>PayloadOrganization</key>
+            <string>MyOrganization</string>
+            <key>PayloadEnabled</key>
+            <true/>
+            <key>PayloadContent</key>
+            <dict>
+                <key>com.apple.dock</key>
+                <dict>
+                    <key>Forced</key>
+                    <dict>
+                        <key>mru-spaces</key>
+                        <false/>
+                        <key>expose-group-apps</key>
+                        <false/>
+                        <key>spaces-spans-displays</key>
+                        <false/>
+                    </dict>
+                </dict>
+                <key>NSGlobalDomain</key>
+                <dict>
+                    <key>Forced</key>
+                    <dict>
+                        <key>AppleSpacesSwitchOnActivate</key>
+                        <false/>
+                    </dict>
+                </dict>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
